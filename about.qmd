@@ -1,0 +1,15 @@
+---
+title: "About"
+image: profile.webp
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/tstoeter
+---
+
+Hello and welcome to my blog!
+Here, I share my reflections and discoveries as I embark on an exciting journey in visual computing.
+I’m currently a research associate in the [Visual Computing](https://vc.cs.ovgu.de/) group within the [Department of Simulation and Graphics](https://www.isg.ovgu.de/en) at [Otto von Guericke University](https://www.ovgu.de/en/) Magdeburg.
+Previously, I worked as a research software engineer at the [Combinatorial NeuroImage Core Facility](https://www.lin-magdeburg.org/cni) of the [Leibniz Institute for Neurobiology](https://www.lin-magdeburg.org) and served as the executive co-lead for a task area in the [NFDI4BIOIMAGE](https://nfdi4bioimage.de/home/) national research data initiative.

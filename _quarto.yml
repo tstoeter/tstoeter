@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: _public/
+
+website:
+  title: "Farpoint Folio"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/tstoeter
+format:
+  html:
+    theme: default
+    css: styles.css

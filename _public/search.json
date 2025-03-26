@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to my blog",
+    "section": "",
+    "text": "Welcome to my blog! This post marks the beginning of my journey in visual computing, where I’ll share curious insights and valuable discoveries. Join me as I explore this fascinating field, documenting my experiences for education and future reference.\n\n\n\nPhoto by Laura Rivera"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Farpoint Folio",
+    "section": "",
+    "text": "Scale-invariant projections for data visualization\n\n\n\n\n\n\nPapers\n\n\n\n\n\n\n\n\n\nMar 21, 2025\n\n\nTorsten Stöter\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to my blog\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMar 14, 2025\n\n\nTorsten Stöter\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello and welcome to my blog! Here, I share my reflections and discoveries as I embark on an exciting journey in visual computing. I’m currently a research associate in the Visual Computing group within the Department of Simulation and Graphics at Otto von Guericke University Magdeburg. Previously, I worked as a research software engineer at the Combinatorial NeuroImage Core Facility of the Leibniz Institute for Neurobiology and served as the executive co-lead for a task area in the NFDI4BIOIMAGE national research data initiative."
+  },
+  {
+    "objectID": "posts/scale-invariant-projections/index.html",
+    "href": "posts/scale-invariant-projections/index.html",
+    "title": "Scale-invariant projections for data visualization",
+    "section": "",
+    "text": "In this post I review and summarize the general concepts and contributions of the Euro Graphics 2025 paper \"Towards Scaling-Invariant Projections for Data Visualization\" by Dierkes et al. (2025)."
+  },
+  {
+    "objectID": "posts/scale-invariant-projections/index.html#data-consistency-dsc",
+    "href": "posts/scale-invariant-projections/index.html#data-consistency-dsc",
+    "title": "Scale-invariant projections for data visualization",
+    "section": "Data Consistency (DSC)",
+    "text": "Data Consistency (DSC)\nThe data consistency measure penalizes points that are closer to another class centroid than their own class' centroid. \\[\nDSC := \\frac{1}{p} \\sum CD(\\mathbf{x_i}, class(\\mathbf{x_i})),\n\\] with centroid distance penalty function applying some distance metric \\(d\\) \\[\nCD(\\mathbf{x}, c_j) := \\begin{cases}\n0, & \\text{if}\\ d(\\mathbf{x},centr(c_j) &lt; d(\\mathbf{x},centr(c_k)) \\ \\forall k \\in [m], k \\neq j \\\\\n1, & \\text{otherwise}\n\\end{cases}\n\\] where \\(centr(c)\\) gives the centroid of a class label \\(c\\)."
+  },
+  {
+    "objectID": "posts/scale-invariant-projections/index.html#class-density-measure-cdm",
+    "href": "posts/scale-invariant-projections/index.html#class-density-measure-cdm",
+    "title": "Scale-invariant projections for data visualization",
+    "section": "Class Density Measure (CDM)",
+    "text": "Class Density Measure (CDM)\nThe class density measures computes the total distance between all point pairs of different classes \\[\nCDM := \\sum_{\\substack{i \\in C_k\\\\ k \\in [m]}} \\sum_{\\substack{j \\in C_l\\\\ l \\in [m]\\setminus [k] }} || \\mathbf{x_i} - \\mathbf{x_j} ||\n\\] where \\(C_k\\) is the set of all indices of points belonging to class \\(k\\)."
+  },
+  {
+    "objectID": "posts/scale-invariant-projections/index.html#data-space-ratio-dsr",
+    "href": "posts/scale-invariant-projections/index.html#data-space-ratio-dsr",
+    "title": "Scale-invariant projections for data visualization",
+    "section": "Data Space Ratio (DSR)",
+    "text": "Data Space Ratio (DSR)\nThe data space ratio is inspired by Tufte's data/ink ratio for data visualization. For this, the projected points are binned into a grid of bin size \\((w,h) \\in \\mathbb{R}_{&gt;0}^2\\) that covers the domain with equal amount of bins per dimension. The DSR is given by \\[\nDSR := \\frac{100}{n} \\sum_j sgn(p_j)\n\\] where \\(p_j\\) counts the points in the bin j."
+  }
+]
